@@ -16,25 +16,12 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            <div>
+            <div style="width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 30%;">
                 <p>Сайт временно не работает по техническим причинам</p>
                 <p>Попробуйте позже</p>
             </div>
-            <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="flex justify-center">
-                    <img src="{{asset('images/logo.png')}}" width="250" alt="{{ env('APP_NAME') }}">
-                </div>
-
-                <div class="mt-16">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-
-
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
     </body>
 </html>
